@@ -1,0 +1,164 @@
+<!doctype html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+	<title>The Big Picture</title>
+
+	<link rel="stylesheet" href="revealjs/css/reveal.css">
+	<!-- <link rel="stylesheet" href="revealjs/css/theme/white.css"> -->
+	<link rel="stylesheet" href="revealjs/css/theme/black.css">
+
+	<!-- Theme used for syntax highlighting of code -->
+	<link rel="stylesheet" href="revealjs/lib/css/zenburn.css">
+
+	<!-- Printing and PDF exports -->
+	<script>
+		var link = document.createElement('link');
+		link.rel = 'stylesheet';
+		link.type = 'text/css';
+		link.href = window.location.search.match(/print-pdf/gi) ? 'revealjs/css/print/pdf.css' : 'revealjs/css/print/paper.css';
+		document.getElementsByTagName('head')[0].appendChild(link);
+	</script>
+	<style>
+		div.footer {
+			margin-top: 600px;
+			font-size: 20px;
+		}
+
+		.reveal .slides section .fragment.step-fade-in-then-out {
+			opacity: 0;
+			display: none;
+		}
+
+		.reveal .slides section .fragment.step-fade-in-then-out.current-fragment {
+			opacity: 1;
+			display: inline;
+		}
+	</style>
+</head>
+
+<body>
+	<div class="reveal">
+		<div class="slides">
+			<!-- title author  -->
+			<section>
+				<h3>The Big Picture</h3>
+				<p>Diego Sandoval</p>
+				<p>Kigali, 2019</p>
+			</section>
+			<section>
+				<section data-markdown style="text-align:left">
+					<textarea data-template>
+						# Introduction
+						<p class="fragment step-fade-in-then-out">Welcome to this series of related, yet
+								loosely structured presentations </p>
+						<p class="fragment fade-in">Welcome to this series of related, yet
+										loosely structured discussion </p>
+											
+				</textarea>
+				</section>
+				<section data-markdown style="text-align:left">
+					<textarea data-template>
+						# Objective 
+						<p class="fragment step-fade-in-then-out">What is this series 
+								of presentations about? </p>
+						<p class="fragment fade-in">What is this series 
+								of discussions about? </p>
+				</textarea>
+				</section>
+				<section data-markdown style="text-align:left">
+					<textarea data-template>
+						... but first why?
+					</textarea>
+				</section>
+			</section>
+			<section data-markdown style="text-align:left">
+				<textarea data-template>
+						### Historical moment
+						* Unprecedented, open access to information, knowledge, and data ...
+						* Unprecedented available computing power
+					</textarea>
+			</section>
+			<section data-markdown style="text-align:left">
+				<textarea data-template>
+						What to do with all this information and resources?
+					</textarea>
+			</section>
+			<section data-markdown>
+				<textarea data-template>
+							What to learn, what to unlearn?
+							<br>
+							<img src="images/hamlet.jpg" height="500">
+						</textarea>
+			</section>
+			<section data-markdown>
+				<textarea data-template>
+					# Content 
+					* Open source: the economic model, but essentially about open-source software
+					* Programming as literacy: Python
+					* Command line and text representations: hopefully by the end of the week it would be clear why
+				</textarea>
+			</section>
+
+			<section>
+				<section data-background-color="#dda0ad" data-markdown>
+					<textarea data-template>
+					Have you heard about `free software` or `open-source`?
+					</textarea>
+				</section>
+				<section data-background-color="#9acd32">
+					Does any one of you use Linux?
+				</section>
+				<section data-background-color="#a52a2a">
+					Do you feel sometimes that your CS, or programming-related knowledge is insufficient?
+				</section>
+
+				<section data-background-color="#2f4f4f">
+					Would you like to improve your programming literacy?
+					<br>
+					Why?
+				</section>
+				
+				<section data-background-color="#ff8c00">
+					What kind of abilities or super powers would you like to acquire?
+				</section>
+			</section>
+
+		</div>
+	</div>
+
+	<script src="revealjs/lib/js/head.min.js"></script>
+	<script src="revealjs/js/reveal.js"></script>
+
+	<script>
+		// More info about config & dependencies:
+		// - https://github.com/hakimel/reveal.js#configuration
+		// - https://github.com/hakimel/reveal.js#dependencies
+		Reveal.initialize({
+			math: {
+				mathjax: 'https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.0/MathJax.js',
+				config: 'TeX-AMS_HTML-full'  // See http://docs.mathjax.org/en/latest/config-files.html
+			},
+			dependencies: [
+				{ src: 'revealjs/plugin/math/math.js', async: true },
+				{ src: 'revealjs/plugin/markdown/marked.js' },
+				{ src: 'revealjs/plugin/markdown/markdown.js' },
+				{ src: 'revealjs/plugin/notes/notes.js', async: true },
+				{ src: 'revealjs/plugin/highlight/highlight.js', async: true, callback: function () { hljs.initHighlightingOnLoad(); } }
+			]
+		});
+	</script>
+</body>
+
+
+</html>
+
+<!-- TODO:
+Knowldege without education
+
+Followers 
+
+-->
